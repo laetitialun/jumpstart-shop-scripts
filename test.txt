@@ -1,0 +1,94 @@
+----------------------------------------------------
+BASES
+----------------------------------------------------
+- une branch est une fonctionnalité
+- Rentrer dans un dossier cd NOM DU DOSSIER
+- Sortir d'un dossier cd ..
+- push permet d'e,voyer les modifs sur le serveur
+----------
+LEXIQUE
+----------
+git status permet de voir les fichiers non poussés
+mkdir => Créer un dossier
+git diff => affiche ce qui a été modifier dans un fichier
+git rm => supprimer un fichier
+git add / git add . => création ou modification de fichers
+git log => liste tous les commits
+	git log -1
+	git log -1 --stat
+	git log -2 -- author "laetitialun"
+
+git branch liste les branche en local
+git rebase => permet de récupérer les modifications d'une autre branche en récupérant l'historique des commits.
+git branch -d NOM DE LA BRANCH
+
+
+Revenir en arriere
+git log
+git checkout NUL-MERO DU COMMIT
+-----------------------------------------------------
+CREER UN DEPOT/REPOSITORY
+-----------------------------------------------------
+dans l'ordinateur
+
+Aller dans le dossier ou mettre le dépôt/rpostory cd NOM DU DOSSIER A OUVRIR
+Crééer le dossier => mkdir NOM DU DOSSIER
+ENTER dans le dossier créer
+
+Dans GitHub
+new repository
+entrer le nom du repository (meme nom que le dossier)
+Puis suivre les instruction
+
+
+
+-----------------------------------------------------
+RECUPERER UN DOSSIER EN LOCAL
+-----------------------------------------------------
+
+
+
+-----------------------------------------------------
+POUSSER SON CODE VERS GITHUB [ADD + COMMIT + PUSH]
+-----------------------------------------------------
+Dans le fichier
+1. Modifier le fichier
+
+Dans le terminal
+1. Vérifier le statut => 
+	a. git status
+	b. git diff NOM-DU-FICHIER.EXT
+2. Ajouter le fichier => 
+	a. git add NOM-DU-FICHIER.EXT
+	b. git add .
+3. Commiter avec un commentaire à propos du commit => git commit -m "COMMENTAIRE"
+4. Pousser/Envoyer le commit vers GitHub => git push
+
+
+
+-----------------------------------------------------
+CREER UNE BRANCH
+-----------------------------------------------------
+git branch NOM DE LA BRANCH
+
+git push -u origin NOM DE LA BRANCH
+
+OU git checkout -b NOM de la branch
+
+-----------------------------------------------------
+
+MERGER/fusionner des branch
+aller sur la branch ou metre les dossir
+git checkout NOM DE LA BRANCH
+git merge NOMDE LA BRZNCH IU SE Trouve les fichers à envoyer
+git push
+---------------------------------------------------
+CHANGER DE BRANCH
+----------------------------------------------------
+git checkout NOM-DE-LA-BRANCHE
+
+
+
+---------------------------------------------------
+PULL REQUEST
+-------------
